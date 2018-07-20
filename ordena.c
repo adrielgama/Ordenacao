@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <sys/time.h>
 
-#define TAM 500
+#define TAM 500 //Deve-se mudar o tamanho da entrada de acordo a vontade do usuário.
 
 void BubbleSort_1();
 void BubbleSort_2();
@@ -16,7 +16,7 @@ int main (){
     
     FILE *ent;
     
-    ent = fopen("teste.txt", "r");
+    ent = fopen("teste.txt", "r"); //Lembrar de mudar o nome do arquivo pra cada tamanho desejado ou deixar 'teste.txt' para tamanhos até 10.000 entradas
     
 	if(ent == NULL){
 		printf("Erro! Nao consegui abrir o arquivo...\n");
@@ -44,7 +44,7 @@ int main (){
     
     fclose( ent );
 	
-	/*printf("\n\nOrdenado: \n\n"); //!imprime o vetor ordenado
+	/*printf("\n\nOrdenado: \n\n"); //Imprime o vetor ordenado
 	for(iCont = 0; iCont < TAM; iCont++){
 		printf("%d ", vetor[iCont]);
 	}*/
