@@ -30,3 +30,6 @@ ___
 ![VERSAO DO SW](https://img.shields.io/badge/Update-2.0-brightgreen.svg)
 > **Note:** *Implementação dos algoritmos melhorados para testes de velocidade no tempo de execução.*
 
+
+## Mapa de tempo
+![enter image description here](https://img00.deviantart.net/9e74/i/2018/201/1/8/tempo_de_execuo___adriel_de_oliveira_gama_by_vigarist-dchrkv4.png)
