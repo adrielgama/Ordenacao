@@ -34,5 +34,3 @@ ___
 ## Mapa de tempo
 ![enter image description here](https://orig00.deviantart.net/9a10/f/2018/201/7/a/tempo_de_execuo___adriel_de_oliveira_gama_by_vigarist-dchrkv4.png)
 
-https://img00.deviantart.net/9e74/i/2018/201/1/8/tempo_de_execuo___adriel_de_oliveira_gama_by_vigarist-dchrkv4.png
-
