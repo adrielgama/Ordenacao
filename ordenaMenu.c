@@ -25,7 +25,15 @@ int main (){
     
     FILE *ent;
     
-    ent = fopen("teste.txt", "r"); //Lembrar de mudar o DEFINE para cada tamanho de entrada
+    ent = fopen("teste.txt", "r"); 
+	
+	/***********************************************************
+	*                                                          *
+	*                                                          *
+	*  Lembrar de mudar o DEFINE para cada tamanho de entrada  *
+	*                                                          *
+	*                                                          *
+	***********************************************************/
     
 	if(ent == NULL){
 		printf("Erro, nao consegui abrir o arquivo...\n");
@@ -34,7 +42,6 @@ int main (){
 	
 
 	for(iCont = 0; iCont < TAM; iCont++){
-		//printf("Lendo posicao %d\n", iCont);
 		if(fscanf(ent, "%d", &vetor[iCont]) == EOF){
 				setbuf(stdin, NULL);
 			printf("Opa, tentei ler alem do final do arquivo...\n");
